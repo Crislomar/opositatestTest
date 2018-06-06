@@ -3759,3 +3759,84 @@ footer .salir-test span.cerrar-test {
     color: #d51f1f;
 }*/
 
+/* landing OPOSITATEST-JUICIO VERBAL @crislomar *********/
+
+.small-title{
+    text-align: center;
+    font-size: 0.6em;
+    display: block;
+}
+ul.high{
+    font-size: 1.4em;
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+ul.high li:before{
+    content: "\f00c";
+    font-family: FontAwesome;
+    margin-right: 15px;
+    color:#ffb606;
+}
+.cta{
+    text-align: center;
+    margin-bottom: 50px;
+    float: right;
+    position: relative;
+}
+.cta h3{
+    text-align: center;
+    margin:  0;
+}
+.cta i{
+    width: 60px;
+    height: 60px;
+    font-size: 25px;
+    color:#ffb606;
+    background: #FFF;
+    border:2px solid #575f6a;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    margin-left: -30px;
+    line-height: 60px
+}
+.border{
+    display: block;
+    height: 50px;
+    border:2px solid #575f6a;
+    border-bottom: 0
+}
+.border.bottom{
+    border-top: 0;
+    border-bottom: 2px solid #575f6a;
+    margin-top:50px;
+}
+.alert-custom{
+    font-size: 0.9em;
+    padding: 0 15% 4%
+}
+.btn_large.extra{
+    width: 70%
+}
+@media (max-width: 768px){
+    .cta{
+        float: none;
+        margin-top: -50px
+    }
+    .ventajas.contenido {
+        padding: 0 0 60px 0;
+    }
+    .border{
+        border:0
+    }
+    .border.bottom{
+        display: none;
+    }
+}
+
+
+
